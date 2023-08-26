@@ -29,3 +29,18 @@ Queries :
 - Which news source has the most HTML files in the entire dataset?
 - Consider all HTML files related to varzesh3. Get the number of repetitions of the words `کشتی`, `والیبال`, and `فوتبال` in all p​​ tags, respectively.
 - Find the most repeated word in h2 tag among all news collected on 2023-08-01. (You could use the stopwords array placed in the initial file)
+
+### Problem No.2: 
+In this question, you have to build a model that predicts the topic (label) of the news.<br>
+Each row in the data set corresponds to a news item and the topic of each news item is placed in the tags column. <br>
+This column has different topics, but your model prediction for the test data set should be one of the following topics: <br>
+- social (Should be Labeled as 0 )
+- Economic (1)
+- Iran_provinces (2)
+- International (3)
+- political (4)
+- Scientific_cultural_sports (5)
+
+As a result, the target column (tags) in the initial dataset may require changes. Note that at this stage of the contest, you are allowed to tag news with a maximum of one main category.
+F1 Score is used to evaluate your model. 
+Our model accuracy was about 85%
