@@ -41,6 +41,6 @@ This column has different topics, but your model prediction for the test data se
 - political (4)
 - Scientific_cultural_sports (5)
 
-As a result, the target column (tags) in the initial dataset may require changes. Note that at this stage of the contest, you are allowed to tag news with a maximum of one main category.
-F1 Score is used to evaluate your model. 
+As a result, the target column (tags) in the initial dataset may require changes. Note that at this stage of the contest, you are allowed to tag news with a maximum of one main category. <br>
+F1 Score is used to evaluate your model. <br>
 Our model accuracy was about 85%
